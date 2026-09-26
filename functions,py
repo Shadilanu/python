@@ -1,0 +1,57 @@
+# def greet():#define function
+#     print("hello world")
+
+# greet()#call function
+
+
+# def greet(name,age,place):
+#     print(f"my name is {name},my age is {age},iam coming from {place}")
+
+# greet("shadil",20,"perinthalmanna")
+
+
+
+def greet(name,age,place):
+     print(f"my name is {name},my age is {age},iam coming from {place}")
+
+greet("shadil",20,"perinthalmanna")
+
+
+
+def greet(name,age,place):
+     print(f"my name is {name},my age is {age},iam coming from {place}")
+
+greet(name="irfan",age=21,place="pattambi")
+
+
+
+
+def greet(name,age,place="no place selected"):
+     print(f"my name is {name},my age is {age},iam coming from {place}")
+
+greet("john",22)
+
+
+
+#arbitery
+
+def great(name,*args,**kwrgs):
+     print(name)
+     print(args)
+     print(kwrgs)
+great("sulthan",1,2,3,4,5,6,7,8,9,10,ftfv="irfan",place="palakkad",age=21,country="india",gender="male")
+
+
+
+def great(name):
+     print(name)
+great('sulthan')
+
+def great(*a):
+     print(a)
+great(1,2,3,4,5,6,7,8,9,10)
+
+
+def great(**a):
+     print(a)
+great(name="irfan",place="palakkad",age=21,country="india",gender="male")
