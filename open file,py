@@ -1,0 +1,18 @@
+#1
+# a=open("sample.txt","r")
+# print(a.read())
+# a.close()
+
+#2
+# a=open("sample.txt","r")
+# print(a.readline())
+# print(a.redline())
+# a.close()
+
+#3
+a=open("sample.txt","r")
+lines=a.readlines()
+print(lines)
+a.close()
+
+#4
